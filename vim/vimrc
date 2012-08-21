@@ -1,2 +1,5 @@
+"Set up Pathogen
+call pathogen#infect() 
+
 set ai ru nu mouse=a
 syntax on
