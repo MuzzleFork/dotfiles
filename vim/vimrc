@@ -1,5 +1,24 @@
 "Set up Pathogen
 call pathogen#infect() 
 
-set ai ru nu mouse=a
+
+
+" Set preferences for Gundo
+" Use F5 key to toggle on the sidebar
+nnoremap <F5> :GundoToggle<CR>
+" Make the preview area show up down the bottom of the main window instead of the bottom of the sidebar
+"  - means there's more room to see the diff
+let g:gundo_preview_bottom = 1
+" Make the sidebar disappear when a selection to revert to is made.
+let g:gundo_close_on_revert = 1
+
+
+
+" Basic familiarities
+set autoindent
+set ruler
+set number
+set mouse=a
+" set ai ru nu mouse=a
+
 syntax on
