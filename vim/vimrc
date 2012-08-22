@@ -22,3 +22,10 @@ set mouse=a
 " set ai ru nu mouse=a
 
 syntax on
+
+
+" Solarized theme
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
