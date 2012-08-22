@@ -12,3 +12,4 @@ The following plugins and customisations are included.
 * nerdtree
 * nerdtree-tabs
 * solarized
+* powerline
